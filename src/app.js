@@ -70,7 +70,7 @@ app.get('/weather',(req,res)=>{
  app.get('/help/*',(req,res)=>{
      res.render('404',{
          title :'404',
-         error_message : 'Help article not found',
+         error_message : 'Help article not found...',
          name :'likhitha'
 
      })
